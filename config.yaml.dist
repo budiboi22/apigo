@@ -1,0 +1,6 @@
+app:
+    env: "develop"
+    debug: true
+    port: "2200"
+    timeout: 20
+redis: "127.0.0.1:6379"

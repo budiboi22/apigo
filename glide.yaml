@@ -1,0 +1,11 @@
+package: github.com/budiboi22/apigo
+import:
+- package: github.com/labstack/echo
+  version: ~3.0
+- package: github.com/spf13/viper
+- package: github.com/labstack/gommon
+  version: ~0.2.0
+  subpackages:
+  - color
+- package: github.com/go-sql-driver/mysql
+  version: ~1.3.0
